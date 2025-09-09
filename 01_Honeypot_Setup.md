@@ -63,10 +63,12 @@ Screenshot: Insert terminal output showing Cowrie started
 
 
 ## Step 6: Test Honeypot Locally
-**Action:** Attempted SSH connection from host to honeypot
-**Command**
+**Action:** Attempted SSH connection from host to honeypot  
+
+**Command (from host machine):**
 ```bash
 ssh -p 2222 root@<honeypot_IP>
+
 
 **Expected Result:** Connection accepted, login attempts logged shell simulated
 ```
