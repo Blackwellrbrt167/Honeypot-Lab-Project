@@ -81,7 +81,7 @@ Log Path: cowrie/var/log/cowrie/cowrie.log
 
 Screenshot: Insert log snippet of captured attempt 
 
-## ✅ Summary
+## Summary
 - VM created and Ubuntu installed  
 - Cowrie cloned, configured, and started successfully  
 - Verified login attempts are captured in logs  
