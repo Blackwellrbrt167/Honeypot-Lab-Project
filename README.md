@@ -22,7 +22,7 @@ This repository documents my step-by-step journey building a Blue Team lab envir
 
 ---
 
-## 📂 Documentation
+## Documentation
 Each phase of the lab is documented in detail with screenshots and evidence:
 
 - [01_Honeypot_Setup.md](01_Honeypot_Setup.md)  
