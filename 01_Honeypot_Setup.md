@@ -57,8 +57,6 @@ Screenshot: Insert config snippet showing port settings
 **Command:**
 ```bash
 bin/cowrie start
-
-
 ```
 Screenshot: Insert terminal output showing Cowrie started
 
