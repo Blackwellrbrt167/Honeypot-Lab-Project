@@ -29,14 +29,16 @@ Screenshot: [Insert terminal after update/install]
 
 
 ## Step 3: Clone & Install Cowrie
+**Action:** Cloned Cowrie repository and set up virtual environment  
 
+**Commands:**
+```bash
 git clone https://github.com/cowrie/cowrie
 cd cowrie
 python3 -m venv cowrie-env
 source cowrie-env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-
 
 
 Screenshot: Insert terminal showing successful clone + install
