@@ -15,9 +15,11 @@ Sudo apt update && sudo apt upgrade -y
 sudo apt install git python3-venv python3-pip -y
 
 Screenshot: [Insert terminal after update/install]
+**
+## Step 3: Clone & Install Cowrie**
 
-## Step 3: Clone & Install Cowrie
 **Action:** Cloned Cowries repository and set up virtual environment
+
 **Commands:**
 ```bash
 git clone https://githun.com/cowrie/cowrie
