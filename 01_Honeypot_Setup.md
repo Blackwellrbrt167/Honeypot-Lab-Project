@@ -1,6 +1,6 @@
 This document will captures the step-by-step process of setting up the honeypot environment, including VM creation, installation, configuration, and verifiction 
 
-## Step 1: Virtal Machine Creation 
+## Step 1: Virtual Machine Creation 
 **Action:** Created a new Ubuntu Server 22.04 VM in VirtualBox/VMware
 **Specs:** 2 CPU, 4 GB RAM, 20 GB disk 
 **Network Mode:** Bridged or NAT with Port Forwarding 
