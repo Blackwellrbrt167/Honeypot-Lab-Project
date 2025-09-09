@@ -39,7 +39,7 @@ python3 -m venv cowrie-env
 source cowrie-env/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
-
+```
 
 Screenshot: Insert terminal showing successful clone + install
 
@@ -52,10 +52,12 @@ Screenshot: Insert config snippet showing port settings
 
 
 ## Step 5: Start Cowrie Service
-**Action:** Launched honeypot
-**Command**
+**Action:** Launched honeypot  
+
+**Command:**
 ```bash
 bin/cowrie start
+
 
 ```
 Screenshot: Insert terminal output showing Cowrie started
