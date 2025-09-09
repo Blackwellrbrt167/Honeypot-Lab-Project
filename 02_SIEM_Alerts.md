@@ -51,16 +51,13 @@ Screenshot: Insert SIEM alert Dashboard screenshot
 ## Step 6: Document Findings 
 **Action: Captured the SIEM workflow from raw logs - detection rule - alert.
 
-Screenshot: Insert final summary dashboard or log timeline
 
-Summary
+## Summary
+- Successfully configured log forwarding from Cowrie honeypot into SIEM (Wazuh/Splunk).  
+- Verified Cowrie events appeared in the SIEM log index.  
+- Built a custom detection rule to identify repeated SSH brute-force attempts.  
+- Simulated attack traffic to trigger the rule.  
+- SIEM alert fired successfully, confirming detection pipeline worked end-to-end.  
+- Captured screenshots of configuration, log flow, and triggered alert for evidence.  
 
-Cowrie logs successfully forwarded into SIEM
-
-Custom rule built to detect brute-force attempts
-
-Alert successfully triggered and logged
-
-Evidence captured in /evidence folder
-
-Next step: Begin Incident Response documentation.
+**Next Step:** Begin documenting Incident Response actions taken after the alert (containment, analysis, mitigation).
