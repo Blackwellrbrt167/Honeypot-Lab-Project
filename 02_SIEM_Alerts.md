@@ -1,1 +1,1 @@
-# SIEm Rules + screenshots will be placed here 
+# SIEM Rules + screenshots will be placed here 
