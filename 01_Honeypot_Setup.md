@@ -80,3 +80,12 @@ Screenshot: Insert terminal showing SSH attempt to honeypot
 Log Path: cowrie/var/log/cowrie/cowrie.log
 
 Screenshot: Insert log snippet of captured attempt 
+
+## ✅ Summary
+- VM created and Ubuntu installed  
+- Cowrie cloned, configured, and started successfully  
+- Verified login attempts are captured in logs  
+- Evidence stored in `/evidence` folder  
+
+Next step: Forward logs to SIEM for alert generation.
+
