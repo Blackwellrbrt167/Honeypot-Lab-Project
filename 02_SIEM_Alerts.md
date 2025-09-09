@@ -52,3 +52,15 @@ Screenshot: Insert SIEM alert Dashboard screenshot
 **Action: Captured the SIEM workflow from raw logs - detection rule - alert.
 
 Screenshot: Insert final summary dashboard or log timeline
+
+Summary
+
+Cowrie logs successfully forwarded into SIEM
+
+Custom rule built to detect brute-force attempts
+
+Alert successfully triggered and logged
+
+Evidence captured in /evidence folder
+
+Next step: Begin Incident Response documentation.
