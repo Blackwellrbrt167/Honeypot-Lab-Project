@@ -68,10 +68,10 @@ Screenshot: Insert terminal output showing Cowrie started
 **Command (from host machine):**
 ```bash
 ssh -p 2222 root@<honeypot_IP>
-
+```
 
 **Expected Result:** Connection accepted, login attempts logged shell simulated
-```
+
 Screenshot: Insert terminal showing SSH attempt to honeypot
 
 
