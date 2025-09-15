@@ -29,12 +29,7 @@ sudo apt install git python3-venv python3-pip -y
 ```
 <img width="1148" height="767" alt="HoneyPot_VM_Packaage Install_Part 1 " src="https://github.com/user-attachments/assets/3ba6a630-8fd0-4d8b-88ec-c8daadcc2fe5" />
 
-<img width="1203" height="753" alt="HoneyPot_VM_Package Install_Part 2 " src="https://github.com/user-attachments/assets/b1c224e1-6179-4512-aadb-6189dca46fc8" />
-
-<img width="1223" height="701" alt="HoneyPot_VM_Package Install_Part 3" src="https://github.com/user-attachments/assets/7f7e129a-aa9e-49a0-a3f4-d5291cbbcd1d" />
-
-<img width="1222" height="754" alt="HoneyPot_VM_Package Install_Part 4" src="https://github.com/user-attachments/assets/d9a5f965-cb14-4890-829c-31deafec3f02" />
-
+<img width="823" height="590" alt="Cowrie_Dependencies" src="https://github.com/user-attachments/assets/af8bafd6-bce7-48e4-b26d-722297226dfd" />
 
 
 ## Step 3: Clone & Install Cowrie
@@ -50,33 +45,16 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-<img width="822" height="576" alt="Cowrie Clone Installtion_Confrimation_1" src="https://github.com/user-attachments/assets/470e251d-e28f-4ac8-b879-10d55e087c1b" />
+<img width="822" height="576" alt="Cowrie Clone Installtion_Confrimation_1" src="https://github.com/user-attachments/assets/43d37963-413f-4127-a6d5-69f922f709ae" />
 
+<img width="895" height="242" alt="Cowrie DIrectory Access" src="https://github.com/user-attachments/assets/6b3e79f6-1340-4911-805a-445c88c57222" />
+
+<img width="817" height="466" alt="Cowrie_Activation of Virtual environment" src="https://github.com/user-attachments/assets/578824a9-f111-4ff4-8231-eb35c69d401d" />
 
 
 ## Step 4: Configure Cowrie
 **action:** Adjusted configuration file (cowrie.cfg) to set listening port (eg., 2222 for SSH)
 File Path: cowrie/etc/cowrie.cfg
-
-<img width="823" height="590" alt="Cowrie_Dependencies" src="https://github.com/user-attachments/assets/9cd67132-7c28-43df-8807-e4e3ff9c4b26" />
-
-<img width="822" height="576" alt="Cowrie Clone Installtion_Confrimation_1" src="https://github.com/user-attachments/assets/6c5c66f9-ee93-4de1-892a-cef1214ea7ff" />
-
-<img width="822" height="576" alt="Cowrie_virtual environment setup " src="https://github.com/user-attachments/assets/ac1b611d-5c4c-44c9-bd74-5aa42e4d3d5f" />
-
-<img width="820" height="392" alt="Creation of Non privileged User " src="https://github.com/user-attachments/assets/6297992b-bc3e-4772-ae1e-162134a93e9a" />
-
-<img width="817" height="466" alt="Cowrie_Activation of Virtual environment" src="https://github.com/user-attachments/assets/920a5073-e8b2-4f91-9e64-b27c40e4446a" />
-
-<img width="895" height="242" alt="Cowrie DIrectory Access" src="https://github.com/user-attachments/assets/c41e00e3-692a-416c-afaa-b7122044c6d6" />
-
-<img width="812" height="576" alt="Cowrie directory_confirmation " src="https://github.com/user-attachments/assets/c6c4cba3-dfa1-4c45-be14-2765aedf2e37" />
-
-<img width="1252" height="757" alt="Update of Requirments file " src="https://github.com/user-attachments/assets/ccc39b42-d6f8-49de-8d7f-0f237459e9f2" />
-
-<img width="1268" height="752" alt="Update of Requirements file_2" src="https://github.com/user-attachments/assets/11f38032-2bd1-41cb-a3a8-2363f35c7613" />
-
-
 
 
 ## Step 5: Start Cowrie Service
