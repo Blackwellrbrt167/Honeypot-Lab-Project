@@ -11,7 +11,7 @@ This document captures the step-by-step process of setting up the honeypot envir
 **Specs:** 2 CPU, 4 GB RAM, 20 GB disk  
 **Network Mode:** Bridged or NAT with Port Forwarding  
 
-📸 Screenshot: [Insert VM Settings screenshot](../evidence/vm_setup.png)
+
 
 ---
 
