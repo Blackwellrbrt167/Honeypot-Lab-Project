@@ -1,6 +1,6 @@
 This document will captures the step-by-step process of setting up the honeypot environment, including VM creation, installation, configuration, and verifiction 
 
-# Honeypot Setup (Cowrie Example)
+# Honeypot Setup (Cowrie)
 
 This document captures the step-by-step process of setting up the honeypot environment, including VM creation, installation, configuration, and verification.
 
