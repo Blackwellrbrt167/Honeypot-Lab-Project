@@ -13,6 +13,8 @@ This document captures the step-by-step process of setting up the honeypot envir
 
 <img width="1075" height="875" alt="HoneyPot_VM_Setup" src="https://github.com/user-attachments/assets/e1efdeb5-8fde-4799-8356-c43d88f621b6" />
 
+<img width="630" height="407" alt="HoneyPot_VM_Network Check_Port Forwarding Rules " src="https://github.com/user-attachments/assets/367308b0-ea04-419d-81f8-9fc98b61a306" />
+
 
 ---
 
