@@ -105,7 +105,7 @@ sudo cp cowrie.cfg.dist cowrie.cfg
 ```
 <img width="897" height="248" alt="Cowrie Configuration Install " src="https://github.com/user-attachments/assets/aa1193eb-6953-4bac-bee9-7f6168f0fe82" />
 
-## Step 7: Start Cowrie Service
+## Step 8: Start Cowrie Service
 **Action:** Launched honeypot  
 
 **Command:**
@@ -116,7 +116,7 @@ bin/cowrie start
 Screenshot: Insert terminal output showing Cowrie started
 
 
-## Step 6: Test Honeypot Locally
+## Step 9: Test Honeypot Locally
 **Action:** Attempted SSH connection from host to honeypot  
 
 **Command (from host machine):**
@@ -129,7 +129,7 @@ ssh -p 2222 root@<honeypot_IP>
 Screenshot: Insert terminal showing SSH attempt to honeypot
 
 
-## Step 7: Verify Logs
+## Step 10: Verify Logs
 **Action:** Checked honeypot logs for captured attempt
 Log Path: cowrie/var/log/cowrie/cowrie.log
 
