@@ -32,32 +32,80 @@ sudo apt install git python3-venv python3-pip -y
 <img width="823" height="590" alt="Cowrie_Dependencies" src="https://github.com/user-attachments/assets/af8bafd6-bce7-48e4-b26d-722297226dfd" />
 
 
-## Step 3: Clone & Install Cowrie
-**Action:** Cloned Cowrie repository and set up virtual environment  
+## Step 3: Install Cowrie system dependencies
+**Action:** Installed system-wide support for python virtual environments and other dependencies  Actual Python packages are installed later. 
+
 
 **Commands:**
 ```bash
-git clone https://github.com/cowrie/cowrie
-cd cowrie
-python3 -m venv cowrie-env
-source cowrie-env/bin/activate
-pip install --upgrade pip
-pip install -r requirements.txt
+sudo apt-get install git python3-pip python3-venv libssl-dev libffi-dev build-essential libpython3-dev python3-minimal authbind
 ```
 
-<img width="822" height="576" alt="Cowrie Clone Installtion_Confrimation_1" src="https://github.com/user-attachments/assets/43d37963-413f-4127-a6d5-69f922f709ae" />
+<img width="823" height="590" alt="Cowrie_Dependencies" src="https://github.com/user-attachments/assets/d9505f73-d3b4-4ffb-9c8d-677b18c6e870" />
 
-<img width="895" height="242" alt="Cowrie DIrectory Access" src="https://github.com/user-attachments/assets/6b3e79f6-1340-4911-805a-445c88c57222" />
+## Step 4: Create a user account 
+**Action:** Created a dedicated non-root user id: 
 
-<img width="817" height="466" alt="Cowrie_Activation of Virtual environment" src="https://github.com/user-attachments/assets/578824a9-f111-4ff4-8231-eb35c69d401d" />
+**Commands**
+```bash
+sudo adduser --disabled-password cowrie
 
+sudo su - cowrie
+```
+<img width="820" height="392" alt="Creation of Non privileged User " src="https://github.com/user-attachments/assets/abbb7b03-9e97-4e6f-a1cd-9788d27a4c2c" />
 
-## Step 4: Configure Cowrie
-**action:** Adjusted configuration file (cowrie.cfg) to set listening port (eg., 2222 for SSH)
-File Path: cowrie/etc/cowrie.cfg
+## Step 5: Clone and Install Cowrie
 
+**Action:** Cloning and installing are required to get Cowrie running because it is an open-source project hosted on GitHub, not a standard software package. In the respective screenshot I was moving so fast and forgot to copy the original input of the command so I simply chose to reenter as a means to check to make sure I was able to install. 
 
-## Step 5: Start Cowrie Service
+**Commands**
+```bash
+git clone http://github.com/cowrie/cowrie
+
+cd cowrie
+
+cd ~/cowrie
+ls 
+```
+
+<img width="822" height="576" alt="Cowrie Clone Installtion_Confrimation_1" src="https://github.com/user-attachments/assets/8cc788d1-1c54-40c8-8ddf-710a50c3b44f" />
+
+<img width="895" height="242" alt="Cowrie DIrectory Access" src="https://github.com/user-attachments/assets/cb0091c0-aeae-4fcb-97e8-d6d1b62fecd3" />
+
+## Step 6: Setup Virtual Environment 
+
+**Action:** Creation of the Virtual Environment for Cowrie for dependency management and isolation
+
+**Command**
+```bash
+pwd
+python3 -m venv cowrie-env
+```
+<img width="822" height="576" alt="Cowrie_virtual environment setup " src="https://github.com/user-attachments/assets/ff786300-0bad-44f3-b74c-823ed318cc9d" />
+
+## Step 6a: Activating Virtual Environment and Install Packages 
+**Action:** Acivating the virtual environment to isolate its python dependencies to ensure tha tthe honeypot functions correctly and avoids coflicts with other projects on the system. 
+
+**Command**
+```bash
+source cowrie-env/bin/activate
+```
+<img width="817" height="466" alt="Cowrie_Activation of Virtual environment" src="https://github.com/user-attachments/assets/85f1c650-b346-4e6f-836f-2f528a9ad292" />
+
+## Step 7: Installation of Cowrie Configuration File 
+
+**action:** The configuration is stored in cowrie.cfg.dist and cowrie.cfg.  these files will be read on startup. the entries from the cowrie.cfg file will take precedence in this regard. 
+
+**Command**
+```bash
+
+cd ~/cowrie/etc
+ls -l cowrie.cfg.dist
+sudo cp cowrie.cfg.dist cowrie.cfg
+```
+<img width="897" height="248" alt="Cowrie Configuration Install " src="https://github.com/user-attachments/assets/aa1193eb-6953-4bac-bee9-7f6168f0fe82" />
+
+## Step 7: Start Cowrie Service
 **Action:** Launched honeypot  
 
 **Command:**
