@@ -145,6 +145,8 @@ sudo chown -R vboxuser:vboxuser var/run
 ```bash
 bin/cowrie start
 ```
+<img width="1212" height="237" alt="Cowrie start_2" src="https://github.com/user-attachments/assets/8d6fb440-db97-4e44-b878-8af49a3e2f8f" />
+
 
 <img width="1227" height="140" alt="Cowrie Start Confirmation " src="https://github.com/user-attachments/assets/adc9f6e1-9317-4390-805b-e0cc7115c6c0" />
 
