@@ -1,4 +1,4 @@
-## 2025-09-09 | Day 1 – Honeypot Project Kickoff
+## 2025-09-09 – Honeypot Project Kickoff
 
 ### Raw Notes
 With the raw notes in place and with the understanding of what I did today, you now know what was accomplished on Day One. I even took the time to research just what a honeypot is. See below:
