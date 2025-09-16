@@ -22,3 +22,47 @@ With the raw notes in place and with the understanding of what I did today, you 
 Just based upon my research and the relative simplicity, I will begin with Cowrie. The truth is that Dionaea was not that bad and I could understand what it was asking of me — that’s just because of education.  
 
 As far as T-Pot was concerned, it was hard to understand anything. For them it was difficult to find the steps to set up the honeypot. Although I understood some of the material, I had to go through everything to attempt to locate where any documentation discussing the setup was found. The page was just so unorganized.  
+
+---
+
+# Security Lab Reflection Journal  
+
+This journal captures my personal reflections, troubleshooting, and lessons learned while building and documenting my Cowrie honeypot lab environment.  
+
+---
+
+## 09/14/2025 – Dependencies & Repo Setup  
+
+**Work Completed:**  
+- Installed required packages (`git`, `python3-pip`, `python3-venv`, etc.) after running into errors with missing dependencies.  
+- Successfully cloned the Cowrie repository (`git clone http://github.com/cowrie/cowrie`).  
+- Verified the repository by navigating into the folder (`cd cowrie`) and running `ls` to confirm the presence of expected files.  
+
+**Lessons Learned:**  
+- Always check which Python package manager (pip vs pip3) matches the environment to avoid confusion.  
+- After cloning, confirm the repo contents before moving forward. Small confirmation steps prevent wasted time later.  
+- Read error messages carefully — they usually point directly to what’s missing.  
+- Installing in the wrong scope (system vs venv) will cause recurring headaches later.  
+
+---
+
+## 09/15/2025 – Virtual Environment, Config, & Permissions  
+
+**Work Completed:**  
+- Created and activated Python virtual environment (`python3 -m venv cowrie-env && source cowrie-env/bin/activate`).  
+- Realized that being inside the virtual environment doesn’t mean I was in the right directory — confirmed using `pwd`.  
+- Copied `cowrie.cfg.dist` to `cowrie.cfg` inside `~/cowrie/etc`. Initially hit “permission denied” until running `sudo`.  
+- Attempted to start Cowrie but ran into log file permission errors. Fixed by creating the log directory `/var/log/cowrie/` and assigning proper ownership and permissions:  
+  - `sudo mkdir -p /var/log/cowrie/`  
+  - `sudo chmod -R 755 /var/log/cowrie/`  
+  - `sudo chown -R vboxuser:vboxuser /var/log/cowrie/`  
+
+**Lessons Learned:**  
+- Being “inside” the virtual environment is not the same as being in the correct directory. Both must align.  
+- Using `pwd` is a simple but powerful command for orientation inside the filesystem.  
+- Always `cd` into the correct subdirectory before attempting file operations.  
+- Use `ls -l` to inspect file permissions instead of guessing.  
+- Cowrie cannot and should not be run as root — permissions need to be aligned with the intended user.  
+- It also impressed upon me to make sure the respective file I am attempting to download or use has the correct permissions required. Thus it should always start with a simple check of what permissions are required before attempting changes.  
+
+---
