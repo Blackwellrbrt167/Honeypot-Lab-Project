@@ -1,3 +1,8 @@
+
+# Security Lab Reflection Journal  
+
+This journal captures my personal reflections, troubleshooting, and lessons learned while building and documenting my Cowrie honeypot lab environment.  
+
 ## 2025-09-09 – Honeypot Project Kickoff
 
 ### Raw Notes
@@ -22,12 +27,6 @@ With the raw notes in place and with the understanding of what I did today, you 
 Just based upon my research and the relative simplicity, I will begin with Cowrie. The truth is that Dionaea was not that bad and I could understand what it was asking of me — that’s just because of education.  
 
 As far as T-Pot was concerned, it was hard to understand anything. For them it was difficult to find the steps to set up the honeypot. Although I understood some of the material, I had to go through everything to attempt to locate where any documentation discussing the setup was found. The page was just so unorganized.  
-
----
-
-# Security Lab Reflection Journal  
-
-This journal captures my personal reflections, troubleshooting, and lessons learned while building and documenting my Cowrie honeypot lab environment.  
 
 ---
 
