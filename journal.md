@@ -62,6 +62,15 @@ As far as T-Pot was concerned, it was hard to understand anything. For them it w
 - Always `cd` into the correct subdirectory before attempting file operations.  
 - Use `ls -l` to inspect file permissions instead of guessing.  
 - Cowrie cannot and should not be run as root — permissions need to be aligned with the intended user.  
-- It also impressed upon me to make sure the respective file I am attempting to download or use has the correct permissions required. Thus it should always start with a simple check of what permissions are required before attempting changes.  
+- It also impressed upon me to make sure the respective file I am attempting to download or use has the correct permissions required. Thus it should always start with a simple check of what permissions are required before attempting changes.
+  
 
 ---
+
+## 2025-09-20 — Decision to Add a SIEM
+
+After successfully building a honeypot using Cowrie, I realized it was important to add a SIEM to my lab environment. This would enable me to interpret the data patterns of the simulated attacks targeting the honeypot. While I could have chosen to analyze the logs manually, I felt that as a student it was better to practice using a SIEM to mirror the daily workflow of a SOC analyst.
+
+Even though my ultimate career focus is in GRC, I believe it’s critical to build a technically driven background. Since I am already learning the technical side through my education, expanding into the SOC environment felt like the right next step. GRC also carries a strong consulting perspective, and I want to fully understand the technical realities behind the policies and frameworks.
+
+I know this journey will be frustrating at times, especially as someone who tends toward perfectionism and often digs deeply into the weeds of problem-solving. But it is a journey worth embracing—one that will have a lasting impact as I push forward toward lifelong mastery.
