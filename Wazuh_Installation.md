@@ -18,7 +18,7 @@ sudo apt install curl apt-transport-https unzip wget -y
 
 <img width="812" height="531" alt="Updating system in preparation for Wazuh Dashboard_Indexer_Manager_Step 1 " src="https://github.com/user-attachments/assets/300abc17-c3ba-4acf-8e91-51071044889a" />
 
-```
+
 ## Step 2: Verify and Expand Disk Partition 
 **Action:** Confirm space, extend the partition, and resize the filesystem 
 
