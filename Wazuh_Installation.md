@@ -11,6 +11,8 @@ This document captures the step-by-step process of installing and configuring Wa
 ```bash
 sudo apt update && sudo apt upgrade -y
 sudo apt install curl apt-transport-https unzip wget -y
+
 ---
+
 ## Step 2: Verify Disk Space and Resize
 **Action:** Ensure Sufficient disk space is available before installing Wazuh 
