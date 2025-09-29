@@ -29,6 +29,20 @@ Just based upon my research and the relative simplicity, I will begin with Cowri
 As far as T-Pot was concerned, it was hard to understand anything. For them it was difficult to find the steps to set up the honeypot. Although I understood some of the material, I had to go through everything to attempt to locate where any documentation discussing the setup was found. The page was just so unorganized.  
 
 ---
+## 09/10–09/12/2025 – Planning & Foundation  
+
+**Work Completed:**  
+- Sketched out the project concept: build a honeypot, capture alerts in a SIEM, practice isolating and analyzing, then tie the whole thing back to GRC frameworks like NIST CSF.  
+- Researched honeypot options (Cowrie, Dionaea, T-Pot). Decided to lean toward Cowrie but hadn’t finalized it yet.  
+- Structured GitHub repository plan: README.md for overview, Journal.md for reflections, folders for screenshots and documentation.  
+- Committed to posting progress on LinkedIn — even though it feels uncomfortable — to build consistency and transparency.  
+
+**Lessons Learned:**  
+- I don’t have to do everything at once. Breaking this down into daily/weekly milestones is the only way this stays sustainable.  
+- Sharing the journey feels awkward, but it forces accountability and might help someone else who’s in the same position.  
+- A project like this is not just technical — it’s mindset, discipline, and building real habits.  
+
+---
 
 ## 09/13/2025 – Project Kickoff & Research  
 
