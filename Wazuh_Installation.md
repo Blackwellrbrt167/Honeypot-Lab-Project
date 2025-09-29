@@ -37,7 +37,35 @@ df -h
 <img width="687" height="118" alt="18_resize2fs_sda2" src="https://github.com/user-attachments/assets/cf127f71-9d39-4a04-9e9b-7200772d9afc" />
 
 <img width="536" height="128" alt="19_df_after_resize" src="https://github.com/user-attachments/assets/9326df32-8479-4ff3-bc24-c1e98fdd2116" />
+
+## Step 3: Install GnuPG and HTTPS Transport 
+
+**Commands**
+
+```bash
+sudo apt-get install gnupg apt-transport-https -y
+
 ```
+<img width="830" height="485" alt="Installation of two packages_GNU Privacy Guard and Apt transport " src="https://github.com/user-attachments/assets/8805eda4-9019-4054-97e3-453556021138" />
+
+## Step 4: Add Wazuh Repository and GPG Key 
+**Action:** Import Wazuh's GPG key, add the apt repo, update metadata 
+
+**Commands:** 
+```bash
+wget -O - https://packages.wazuh.com/key/GPG-KEY-WAZUH | \
+  sudo gpg --dearmor -o /usr/share/keyrings/wazuh.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/wazuh.gpg] https://packages.wazuh.com/4.x/apt stable main" | \
+  sudo tee /etc/apt/sources.list.d/wazuh.list
+
+sudo apt-get update
+```
+<img width="912" height="283" alt="Importing Wazuh repository's GPG signing key into the system " src="https://github.com/user-attachments/assets/6ebc8883-1ec9-4d56-8f19-bd8116711848" />
+
+<img width="832" height="327" alt="Adding the Wazun repository " src="https://github.com/user-attachments/assets/e8cca129-5429-4f8b-bc67-32f7260e6778" />
+
+
 
 
 
