@@ -30,6 +30,23 @@ As far as T-Pot was concerned, it was hard to understand anything. For them it w
 
 ---
 
+## 09/13/2025 – Project Kickoff & Research  
+
+**Work Completed:**  
+- Looked into honeypots and what they actually do — basically decoys to lure attackers, gather info, and either mimic an app, a server, or even a whole network. Learned about production vs. research honeypots and that a group of them is called a honeynet.  
+- Read through docs for Cowrie, Dionaea, and T-Pot. T-Pot was a mess and hard to follow. Dionaea wasn’t bad but Cowrie’s docs just felt more straightforward, so I went with Cowrie to get moving.  
+- Set up the GitHub skeleton (README.md, Journal.md, screenshot folders).  
+- Sketched out the cycle I want to practice: honeypot → SIEM alert → isolation → analysis → breakdown → mitigation → compliance (mainly NIST CSF for now).  
+- Decided this journal will be my raw thoughts, mistakes, and reflections, not polished case studies.  
+
+**Lessons Learned:**  
+- I get excited and want to rush, but I reminded myself speed isn’t the goal here — it’s about mastery and sticking with it.  
+- Some documentation just isn’t beginner friendly (T-Pot). That’s not on me — it just means I need to pick tools I can realistically understand at my current level.  
+- Setting up the repo first was the right call because now I have a place to drop my thoughts and screenshots without losing track.  
+- Breaking this down into daily chunks makes the whole project less overwhelming, even if I end up working longer when I hit a flow state.  
+
+---
+
 ## 09/14/2025 – Dependencies & Repo Setup  
 
 **Work Completed:**  
