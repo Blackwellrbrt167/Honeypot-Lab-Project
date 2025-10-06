@@ -108,24 +108,26 @@ I know this journey will be frustrating at times, especially as someone who tend
 
 ---
 
-## 2025-10-06 - Docker Installation 
+### 2025-10-06 — Docker Installation and the Importance of Preparation
+
+After the challenges I faced during the Wazuh installation, I learned one of the most valuable lessons in my technical journey so far: **preparation determines success.** During that setup, I spent hours resolving errors caused by missing dependencies and permissions — mistakes that were not the result of carelessness, but of inexperience. It was a necessary part of the learning curve. I realized then that every successful deployment, no matter how complex, is built upon a foundation of understanding system requirements and environment dependencies before typing the first command.
+
+That experience changed how I approach every new lab. So when it came time to install Docker — a prerequisite for deploying Shuffle as part of my SOAR environment — I refused to rush. I read the official documentation line by line, verified that Ubuntu had the necessary packages installed, and reviewed each step before executing it. Because of that, the installation went smoothly from start to finish. No permission issues, no broken configurations, no wasted time — just clean, intentional progress. 
+
+This reinforced something I’ve been slowly internalizing as I move deeper into cybersecurity: **mastery doesn’t come from speed; it comes from deliberate understanding.** I now take pride in slowing down, in documenting every detail, and in ensuring I truly know *why* each step matters. Docker’s installation was not just about getting a container engine to run — it was about proving to myself that I can build and manage my environments responsibly.
+
+From a learning perspective, Docker has also deepened my appreciation for containerization in cybersecurity. Reading through Docker’s and Sysdig’s documentation, I came to understand that Docker is far more than a developer tool — it’s a foundational technology for how modern security operations are structured. Containers provide isolated environments that allow systems and applications to run without impacting the host. In the context of a Security Orchestration, Automation, and Response (SOAR) platform like Shuffle, containers are essential. They enable scalable, repeatable, and secure deployment of workflows — helping automate and orchestrate incident response in a controlled way.
+
+This concept resonates deeply with how I now see Blue Team work. Security is no longer just about defending a single system; it’s about architecting reliable environments that can adapt, detect, and respond with precision. Docker represents that flexibility — the ability to isolate, replicate, and automate defenses just as developers automate code deployments. 
+
+The `hello-world` verification was simple on the surface, but meaningful to me. Seeing that confirmation message — “Hello from Docker!” — was symbolic of something larger. It was a quiet reminder that technical success comes not from guessing, but from growth through repetition, study, and reflection.
+
+If the Wazuh setup taught me humility, the Docker installation taught me confidence. I didn’t just install a piece of software — I solidified a mindset. Going forward, I will continue to document not only the commands I run but the reasoning behind them. Because understanding why something works is the only true foundation for mastery.
 
 ---
 
-## Reflection
-
-Going into the Docker installation, I remembered how much time I spent troubleshooting Wazuh dependency errors.  
-That experience made me slow down, read documentation carefully, and verify prerequisites before starting.  
-This time, I noticed the difference immediately — no permission issues, no broken packages, and a clean install.
-
-## Key Takeaways
-
-1. **Preparation matters.** Verifying dependencies before running an install prevents wasted hours later.  
-2. **Documentation saves confusion.** Keeping screenshots, commands, and notes together makes troubleshooting easier.  
-3. **Cross-tool awareness.** I learned that Docker must be installed before Shuffle, which confirmed the importance of understanding tool order in a security stack.
-
-## Observation
-
-Running the `hello-world` test confirmed not just that Docker worked but also that the environment was correctly isolated — a perfect foundation for the upcoming Shuffle SOAR lab.
+**Reference:**  
+Docker Official Documentation – [https://www.docker.com/resources/what-container/](https://www.docker.com/resources/what-container/)  
+Sysdig – [https://www.sysdig.com/learn-cloud-native/orchestration-containerized-architecture](https://www.sysdig.com/learn-cloud-native/orchestration-containerized-architecture)
 
 
