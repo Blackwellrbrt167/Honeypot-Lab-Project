@@ -128,8 +128,4 @@ This time, I noticed the difference immediately — no permission issues, no bro
 
 Running the `hello-world` test confirmed not just that Docker worked but also that the environment was correctly isolated — a perfect foundation for the upcoming Shuffle SOAR lab.
 
-## Next Steps
 
-- Deploy Shuffle within Docker containers.  
-- Begin documenting container orchestration and SOAR workflows.  
-- Continue journaling each setup for reproducibility and learning retention.
