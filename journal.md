@@ -118,21 +118,15 @@ Going into the Docker installation, I remembered how much time I spent troublesh
 That experience made me slow down, read documentation carefully, and verify prerequisites before starting.  
 This time, I noticed the difference immediately — no permission issues, no broken packages, and a clean install.
 
----
-
 ## Key Takeaways
 
 1. **Preparation matters.** Verifying dependencies before running an install prevents wasted hours later.  
 2. **Documentation saves confusion.** Keeping screenshots, commands, and notes together makes troubleshooting easier.  
 3. **Cross-tool awareness.** I learned that Docker must be installed before Shuffle, which confirmed the importance of understanding tool order in a security stack.
 
----
-
 ## Observation
 
 Running the `hello-world` test confirmed not just that Docker worked but also that the environment was correctly isolated — a perfect foundation for the upcoming Shuffle SOAR lab.
-
----
 
 ## Next Steps
 
