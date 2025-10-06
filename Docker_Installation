@@ -1,1 +1,38 @@
+# 🐳 Docker Installation (Lab Documentation)
+
+This document provides a **complete walkthrough** of installing **Docker Engine** on **Ubuntu 24.04 (Honeypot-VM)**.  
+It includes the **exact commands used** during installation and the **screenshots** that visually demonstrate each step.  
+This setup forms the foundation for deploying the **Shuffle SOAR (Security Orchestration, Automation, and Response)** platform in a controlled lab environment.
+
+---
+
+## 📘 What is Docker?
+
+According to [Docker.com](https://www.docker.com/), **Docker** is an open platform for developing, shipping, and running applications.  
+Docker uses **containerization technology** to separate applications from the underlying system, ensuring that they run consistently across different environments.
+
+In simple terms, a **container** is an isolated environment that includes everything needed to run an application—code, runtime, libraries, and dependencies.  
+This isolation ensures that the host system’s resources are not directly impacted and that each application runs independently of others.
+
+For the purposes of this project, Docker is being used to deploy **Shuffle SOAR**. Containers serve two primary roles in this security automation context:
+
+1. **Data Structures for Security Events** – Containers help structure and process incident data in isolated environments.
+2. **Self-Contained Deployment Environments** – Each component of the SOAR platform (e.g., APIs, dashboards, integrations) runs in its own containerized environment.
+
+In short, Docker enables scalable, reliable, and secure deployment of cybersecurity automation tools like Shuffle.
+
+📚 **Reference:**  
+[Sysdig: Understanding Container Orchestration and Architecture](https://www.sysdig.com/learn-cloud-native/orchestration-containerized-architecture#:~:text=Container%20orchestration%20platforms%2C%20like%20Kubernetes,%2C%20deploy%2C%20and%20manage%20containers.)
+
+---
+
+## 🧩 Step 1: System Preparation
+
+**Action:** Update the package list to ensure all repositories are current.
+
+**Command:**
+```bash
+sudo apt update
+```
+
 
