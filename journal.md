@@ -105,3 +105,37 @@ After successfully building a honeypot using Cowrie, I realized it was important
 Even though my ultimate career focus is in GRC, I believe it’s critical to build a technically driven background. Since I am already learning the technical side through my education, expanding into the SOC environment felt like the right next step. GRC also carries a strong consulting perspective, and I want to fully understand the technical realities behind the policies and frameworks.
 
 I know this journey will be frustrating at times, especially as someone who tends toward perfectionism and often digs deeply into the weeds of problem-solving. But it is a journey worth embracing—one that will have a lasting impact as I push forward toward lifelong mastery.
+
+---
+
+## 2025-10-06 - Docker Installation 
+
+---
+
+## Reflection
+
+Going into the Docker installation, I remembered how much time I spent troubleshooting Wazuh dependency errors.  
+That experience made me slow down, read documentation carefully, and verify prerequisites before starting.  
+This time, I noticed the difference immediately — no permission issues, no broken packages, and a clean install.
+
+---
+
+## Key Takeaways
+
+1. **Preparation matters.** Verifying dependencies before running an install prevents wasted hours later.  
+2. **Documentation saves confusion.** Keeping screenshots, commands, and notes together makes troubleshooting easier.  
+3. **Cross-tool awareness.** I learned that Docker must be installed before Shuffle, which confirmed the importance of understanding tool order in a security stack.
+
+---
+
+## Observation
+
+Running the `hello-world` test confirmed not just that Docker worked but also that the environment was correctly isolated — a perfect foundation for the upcoming Shuffle SOAR lab.
+
+---
+
+## Next Steps
+
+- Deploy Shuffle within Docker containers.  
+- Begin documenting container orchestration and SOAR workflows.  
+- Continue journaling each setup for reproducibility and learning retention.
