@@ -1,4 +1,4 @@
-## Docker Installation (Lab Documentation)
+# 🐳 Docker Installation (Lab Documentation)
 
 This document provides a **complete walkthrough** of installing **Docker Engine** on **Ubuntu 24.04 (Honeypot-VM)**.  
 It includes the **exact commands used** during installation and the **screenshots** that visually demonstrate each step.  
@@ -6,7 +6,7 @@ This setup forms the foundation for deploying the **Shuffle SOAR (Security Orche
 
 ---
 
-## What is Docker?
+## 📘 What is Docker?
 
 According to [Docker.com](https://www.docker.com/), **Docker** is an open platform for developing, shipping, and running applications.  
 Docker uses **containerization technology** to separate applications from the underlying system, ensuring that they run consistently across different environments.
@@ -21,9 +21,19 @@ For the purposes of this project, Docker is being used to deploy **Shuffle SOAR*
 
 In short, Docker enables scalable, reliable, and secure deployment of cybersecurity automation tools like Shuffle.
 
-**Reference:**  
+📚 **Reference:**  
 [Sysdig: Understanding Container Orchestration and Architecture](https://www.sysdig.com/learn-cloud-native/orchestration-containerized-architecture#:~:text=Container%20orchestration%20platforms%2C%20like%20Kubernetes,%2C%20deploy%2C%20and%20manage%20containers.)
 
+---
 
+## 🧩 Step 1: System Preparation
+
+**Action:** Update the package list to ensure all repositories are current.
+
+**Command:**
+```bash
+sudo apt update
+```
+<img width="725" height="293" alt="Docker_Installation_Step 1" src="https://github.com/user-attachments/assets/46985a1d-bd8d-4b62-b83c-48483758480b" />
 
 
