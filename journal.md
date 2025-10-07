@@ -131,3 +131,13 @@ Docker Official Documentation – [https://www.docker.com/resources/what-contain
 Sysdig – [https://www.sysdig.com/learn-cloud-native/orchestration-containerized-architecture](https://www.sysdig.com/learn-cloud-native/orchestration-containerized-architecture)
 
 
+## 2025-10-07 - Shuffle/Wazuh Port Issue 
+
+My honest feelings are that I decided to stay in the pocket with the issues, patiently troubleshooting and researching possible solutions through Google. Based on the documentation, I knew there could be potential issues with OpenSearch, but none of the examples I found online directly addressed the situation I was facing — where OpenSearch was running on the same port as Wazuh.
+
+At first, I thought I might need to close Wazuh to free the port, but as soon as that thought came, I realized it was incorrect. Shuffle actually works in conjunction with Wazuh as part of the SIEM ecosystem, so shutting it down wouldn’t make sense.
+
+I discovered that the port conflict existed solely because of the error message displayed during installation, which made the problem clear.
+
+What’s interesting is how much smoother I’m becoming with Linux commands as I go through these troubleshooting steps. I may not have every command memorized yet, but I understand the fundamentals—and that’s what matters. Through this process, I’m learning not just cybersecurity, but full-fledged Linux system administration.
+
