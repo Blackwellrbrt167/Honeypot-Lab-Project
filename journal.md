@@ -145,49 +145,28 @@ What’s interesting is how much smoother I’m becoming with Linux commands as 
 
 ---
 
-## Overview  
 After weeks of configuring, breaking, fixing, and learning, my full SOC environment is now live.  
 This reflection captures the entire journey — from the first VM boot to seeing Suricata, Wazuh, Shuffle, Docker, and the Honeypot all communicating as one system.
 
----
 
-## The Beginning — A Blank Terminal and a Vision  
-When I first opened my virtual machine, it was nothing but an empty screen and a single goal:  
-to build something real — a living, breathing SOC environment I could learn from.
+When I first opened my virtual machine, it was nothing but an empty screen and a single goal:to build something real — a living, breathing SOC environment I could learn from.
 
-I didn’t have a roadmap. Just determination and a simple question driving me:  
-*What if I could build a defensive environment that mirrors a real Blue Team operation?*
+I didn’t have a roadmap. Just determination and a simple question driving me:  *What if I could build a defensive environment that mirrors a real Blue Team operation?*
 
-That question became my north star.
+That question became my north star.  Every tool introduced a new challenge:  
 
----
+ **Wazuh:** required service linking and verification between components.  
+ **Suricata:** failed on first startup due to permission issues.  
+ **Shuffle (SOAR):** installation conflicts with Docker networking.  
+ **Docker:** needed system-level adjustments to run smoothly at boot.  
+ **Honeypot VM:** resource balancing and connectivity configuration.  
 
-## The Struggle — Errors, Reboots, and Lessons Learned  
-Every tool introduced a new challenge:  
-- **Wazuh:** required service linking and verification between components.  
-- **Suricata:** failed on first startup due to permission issues.  
-- **Shuffle (SOAR):** installation conflicts with Docker networking.  
-- **Docker:** needed system-level adjustments to run smoothly at boot.  
-- **Honeypot VM:** resource balancing and connectivity configuration.  
-
-At times, it felt like everything that could go wrong did go wrong.  
-There were moments I genuinely thought about deleting everything and starting over.  
-
-But every failed attempt revealed a new concept — logs, permissions, dependencies, file ownership, and service states.  
-This is where real learning happens: not in perfect success, but in disciplined troubleshooting.
-
----
-
-## The Breakthrough — When “Active (Running)” Finally Appeared  
+At times, it felt like everything that could go wrong did go wrong.  There were moments I genuinely thought about deleting everything and starting over. But every failed attempt revealed a new concept — logs, permissions, dependencies, file ownership, and service states.  This is where real learning happens: not in perfect success, but in disciplined troubleshooting.
 After countless tests and restarts, I finally saw it:  
 
-That single line next to **Suricata** hit different.  
-It wasn’t just code — it was the symbol of progress.  
-It meant the IDS was alive, monitoring, and communicating with Wazuh.
+That single line next to **Suricata** hit different.  It wasn’t just code — it was the symbol of progress.  It meant the IDS was alive, monitoring, and communicating with Wazuh.
 
-Then Docker stabilized. Then Wazuh and Shuffle started to integrate.  
-The pieces were no longer random — they were talking to each other.  
-For the first time, I saw my own SOC environment function as a unit.
+Then Docker stabilized. Then Wazuh and Shuffle started to integrate.The pieces were no longer random — they were talking to each other.  For the first time, I saw my own SOC environment function as a unit.
 
 ---
 
