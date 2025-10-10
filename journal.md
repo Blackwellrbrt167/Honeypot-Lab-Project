@@ -229,8 +229,5 @@ And that’s what this field is all about.
 *"I built this environment line by line, command by command —  
 not just to learn security tools, but to build the mindset of someone who never gives up."*
 
----
 
-**Robert Blackwell III**  
-Blue Team Builder | SOC + GRC Path | Student of Persistence
 
